@@ -1,6 +1,5 @@
 import streamlit as st
-import Groq
-from groq import Groq 
+import groq
 
 def chatbot(prompt):
   response = client.chat.completions.create(
