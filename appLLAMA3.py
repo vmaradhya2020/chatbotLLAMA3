@@ -16,7 +16,7 @@ def main():
     st.write("Enter your question below:")
 
     # Input atext box for user
-    user_input = st.text_area("You:", height=100)
+    user_input = st.text_area("You:", height=50)
 
     # Button to send input to chatbot
     if st.button("Submit"):
